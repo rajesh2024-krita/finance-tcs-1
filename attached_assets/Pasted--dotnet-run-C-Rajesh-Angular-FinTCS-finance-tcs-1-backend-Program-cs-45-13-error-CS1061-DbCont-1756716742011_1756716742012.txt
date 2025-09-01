@@ -1,0 +1,100 @@
+ dotnet run
+C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\Program.cs(45,13): error CS1061: 'DbContextOptionsBuilder' does not contain a 
+definition for 'UseSqlServer' and no accessible extension method 'UseSqlServer' accepting a first argument of type 'DbContext 
+OptionsBuilder' could be found (are you missing a using directive or an assembly reference?) [C:\Rajesh\Angular\FinTCS\financ
+e-tcs-1\backend\FintcsApi.csproj]
+C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\Program.cs(85,28): error CS0246: The type or namespace name 'IMemberRepository
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Rajesh\Angular\FinTCS\finance-tcs-1\ba 
+ckend\FintcsApi.csproj]
+C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\Program.cs(85,47): error CS0246: The type or namespace name 'MemberRepository' 
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Rajesh\Angular\FinTCS\finance-tcs-1\bac 
+kend\FintcsApi.csproj]
+C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\Program.cs(87,28): error CS0246: The type or namespace name 'IUserService' cou 
+ld not be found (are you missing a using directive or an assembly reference?) [C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend 
+\FintcsApi.csproj]
+C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\Program.cs(87,42): error CS0246: The type or namespace name 'UserService' coul 
+d not be found (are you missing a using directive or an assembly reference?) [C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\ 
+FintcsApi.csproj]
+C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\Program.cs(88,28): error CS0246: The type or namespace name 'ISocietyService' 
+could not be found (are you missing a using directive or an assembly reference?) [C:\Rajesh\Angular\FinTCS\finance-tcs-1\back 
+end\FintcsApi.csproj]
+C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\Program.cs(88,45): error CS0246: The type or namespace name 'SocietyService' c 
+ould not be found (are you missing a using directive or an assembly reference?) [C:\Rajesh\Angular\FinTCS\finance-tcs-1\backe 
+nd\FintcsApi.csproj]
+C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\Program.cs(89,28): error CS0246: The type or namespace name 'IMemberService' c 
+ould not be found (are you missing a using directive or an assembly reference?) [C:\Rajesh\Angular\FinTCS\finance-tcs-1\backe 
+nd\FintcsApi.csproj]
+C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\Program.cs(89,44): error CS0246: The type or namespace name 'MemberService' co 
+uld not be found (are you missing a using directive or an assembly reference?) [C:\Rajesh\Angular\FinTCS\finance-tcs-1\backen 
+d\FintcsApi.csproj]
+C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\Program.cs(49,35): warning CS8604: Possible null reference argument for parame 
+ter 's' in 'byte[] Encoding.GetBytes(string s)'. [C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\FintcsApi.csproj]
+C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\Services\AuthService.cs(41,68): warning CS8604: Possible null reference argume 
+nt for parameter 's' in 'int int.Parse(string s)'. [C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\FintcsApi.csproj]
+C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\DTOs\SocietyDto.cs(45,23): warning CS8618: Non-nullable property 'Username' mu 
+st contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nu 
+llable. [C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\FintcsApi.csproj]
+C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\DTOs\SocietyDto.cs(52,23): warning CS8618: Non-nullable property 'Status' must 
+ contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as null 
+able. [C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\FintcsApi.csproj]
+C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\DTOs\LoginDto.cs(9,23): warning CS8618: Non-nullable property 'Username' must  
+contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nulla 
+ble. [C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\FintcsApi.csproj]
+C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\DTOs\LoginDto.cs(12,23): warning CS8618: Non-nullable property 'Password' must 
+ contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as null 
+able. [C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\FintcsApi.csproj]
+C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\DTOs\SocietyDto.cs(9,23): warning CS8618: Non-nullable property 'SocietyName'  
+must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as  
+nullable. [C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\FintcsApi.csproj]
+C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\Models\User.cs(12,23): warning CS8618: Non-nullable property 'Username' must c 
+ontain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullab 
+le. [C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\FintcsApi.csproj]
+C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\Models\User.cs(15,23): warning CS8618: Non-nullable property 'PasswordHash' mu 
+st contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nu 
+llable. [C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\FintcsApi.csproj]
+C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\Models\User.cs(19,23): warning CS8618: Non-nullable property 'Email' must cont 
+ain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. 
+ [C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\FintcsApi.csproj]
+C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\DTOs\MemberDto.cs(9,23): warning CS8618: Non-nullable property 'Name' must con 
+tain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable 
+. [C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\FintcsApi.csproj]
+C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\Models\SocietyApproval.cs(10,29): warning CS8618: Non-nullable property 'User' 
+ must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as 
+ nullable. [C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\FintcsApi.csproj]
+C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\DTOs\LoginDto.cs(58,23): warning CS8618: Non-nullable property 'Token' must co 
+ntain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullabl 
+e. [C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\FintcsApi.csproj]
+C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\DTOs\LoginDto.cs(59,23): warning CS8618: Non-nullable property 'Username' must 
+ contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as null 
+able. [C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\FintcsApi.csproj]
+C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\DTOs\LoginDto.cs(60,23): warning CS8618: Non-nullable property 'Email' must co 
+ntain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullabl 
+e. [C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\FintcsApi.csproj]
+C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\DTOs\LoginDto.cs(62,23): warning CS8618: Non-nullable property 'Roles' must co 
+ntain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullabl 
+e. [C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\FintcsApi.csproj]
+C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\Models\Society.cs(12,23): warning CS8618: Non-nullable property 'SocietyName'  
+must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as  
+nullable. [C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\FintcsApi.csproj]
+C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\DTOs\LoginDto.cs(19,23): warning CS8618: Non-nullable property 'Username' must 
+ contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as null 
+able. [C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\FintcsApi.csproj]
+C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\DTOs\LoginDto.cs(23,23): warning CS8618: Non-nullable property 'Password' must 
+ contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as null 
+able. [C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\FintcsApi.csproj]
+C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\DTOs\LoginDto.cs(27,23): warning CS8618: Non-nullable property 'Email' must co 
+ntain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullabl 
+e. [C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\FintcsApi.csproj]
+C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\Services\AuthService.cs(152,47): warning CS8604: Possible null reference argum 
+ent for parameter 's' in 'byte[] Encoding.GetBytes(string s)'. [C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\FintcsApi.cspr 
+oj]
+C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\Services\AuthService.cs(166,62): warning CS8604: Possible null reference argum 
+ent for parameter 's' in 'int int.Parse(string s)'. [C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\FintcsApi.csproj]
+C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\Models\Member.cs(12,23): warning CS8618: Non-nullable property 'MemNo' must co
+ntain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullabl 
+e. [C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\FintcsApi.csproj]
+C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\Models\Member.cs(16,23): warning CS8618: Non-nullable property 'Name' must con 
+tain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable 
+. [C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\FintcsApi.csproj]
+
+The build failed. Fix the build errors and run again.
