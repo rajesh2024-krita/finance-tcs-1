@@ -1,0 +1,8 @@
+C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\obj\Debug\net8.0\FintcsApi.csproj.AssemblyReference.cache
+C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\obj\Debug\net8.0\FintcsApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\obj\Debug\net8.0\FintcsApi.AssemblyInfoInputs.cache
+C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\obj\Debug\net8.0\FintcsApi.AssemblyInfo.cs
+C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\obj\Debug\net8.0\FintcsApi.csproj.CoreCompileInputs.cache
+C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\obj\Debug\net8.0\FintcsApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\obj\Debug\net8.0\FintcsApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Rajesh\Angular\FinTCS\finance-tcs-1\backend\obj\Debug\net8.0\FintcsApi.sourcelink.json
