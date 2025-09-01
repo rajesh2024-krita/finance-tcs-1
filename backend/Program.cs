@@ -42,7 +42,7 @@ builder.Services.AddSwaggerGen(c =>
 
 // Database connection
 builder.Services.AddDbContext<FintcsDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // JWT Configuration
 var jwtSettings = builder.Configuration.GetSection("JwtSettings");
