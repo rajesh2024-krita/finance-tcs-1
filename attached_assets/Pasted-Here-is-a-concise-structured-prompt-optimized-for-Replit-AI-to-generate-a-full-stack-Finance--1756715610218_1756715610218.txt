@@ -1,0 +1,116 @@
+Here is a **concise, structured prompt** optimized for Replit AI to **generate a full-stack Finance Management System** with Angular + Tailwind + .NET Core + SQL Server:
+
+---
+
+### **Prompt for Replit AI**
+
+Build a **complete Finance Management System** called **Fintcs** with the following stack:
+
+* **Frontend:** Angular v18 (Standalone APIs, Routing, HttpInterceptor) + Tailwind CSS
+* **Backend:** ASP.Net Core Web API (C#)
+* **Database:** SQL Server (`Fintcs` on localhost)
+
+#### **Authentication & Roles**
+
+* JWT authentication with role-based authorization.
+* Seed Super Admin (username: `admin`, password: `admin`, password hashed via PBKDF2/BCrypt).
+* Roles: `Super Admin`, `Society Admin`, `User`, `Member`.
+* Role guards on frontend and `[Authorize(Roles="...")]` on backend.
+
+---
+
+### **Frontend Requirements (Angular + Tailwind)**
+
+1. **Setup**
+
+   * Configure Tailwind (postcss, tailwind.config.js, styles.css).
+   * Clean, responsive UI with Tailwind utility classes.
+
+2. **Structure**
+
+   ```
+   /src/app/
+     core/ (auth.service.ts, token.interceptor.ts, role.guard.ts)
+     shared/ (models, validators, utils, components)
+     features/
+       auth/ (login)
+       dashboard/ (role-based dashboards)
+       societies/ (CRUD)
+       users/ (CRUD)
+       members/ (CRUD)
+       loans/ (CRUD + reports)
+       demand/ (monthly demand processing)
+       vouchers/ (voucher creation)
+     app.routes.ts
+   ```
+
+3. **UI Components**
+
+   * Reusable forms, tables (sorting, filtering, pagination), dropdowns, date pickers, modals, and toast notifications.
+   * Form validation (disable save until valid).
+
+4. **Modules & Pages**
+
+   * **Login & Dashboard:** Role-based dashboards and navigation.
+   * **Society Management:** CRUD with approval workflow.
+   * **User Management:** CRUD with EDP No., contact info, and credentials.
+   * **Member Management:** Auto MemNo, photo/signature upload, multi-select deductions.
+   * **Loan Entry:** Auto LoanNo, validation, dynamic calculations, dropdown data from backend.
+   * **Monthly Demand:** Editable tables, totals, Excel export, print views.
+   * **Voucher Creation:** Auto VoucherNo, debit-credit balance validation, reverse, print.
+   * **Loan Report:** Sort, filter, export (Excel/PDF), summary stats.
+
+---
+
+### **Backend Requirements (ASP.Net Core Web API)**
+
+1. **Architecture**
+
+   * Layers: Controllers → Services → Repositories → EF Core.
+   * Use DTOs, AutoMapper, FluentValidation/DataAnnotations.
+   * Global exception handling.
+
+2. **Key Entities**
+
+   * SuperAdmin, Society, AppUser, Member, Loan, MonthlyDemand (header & rows), Voucher (header & lines), Lookup tables (LoanType, Bank, VoucherType, Month, Year).
+
+3. **API Endpoints**
+
+   * `/auth/login` (JWT issuance with roles).
+   * Societies, Users, Members, Loans, Monthly Demand, Vouchers, Reports (all CRUD).
+   * Auto ID generation (e.g., MEM\_001, LOAN\_000001, VCH\_000001).
+   * Export & print endpoints (Excel/PDF) with role protection.
+
+4. **Security**
+
+   * JWT Bearer auth.
+   * Hashed passwords.
+   * Role-based API access.
+
+---
+
+### **Database (SQL Server)**
+
+* Name: `Fintcs`
+* Tables for all entities with relationships (FKs) and seed data for Super Admin & lookups.
+* Auto-increment or sequential IDs for codes/numbers.
+
+---
+
+### **Deliverables**
+
+* Angular app with Tailwind configured and all components/pages functional.
+* ASP.Net Core Web API with JWT authentication, EF Core migrations, controllers/services/repos.
+* SQL Server schema + seed script.
+* README with setup steps (frontend & backend).
+
+---
+
+### **Instructions for Replit AI**
+
+* Generate **complete source code** for frontend, backend, and database.
+* Include **all forms, validation, navigation, services, and API integrations**.
+* Ensure **no missing modules** and **no runtime errors**.
+* Make UI **responsive, clean, and production-ready**.
+
+---
